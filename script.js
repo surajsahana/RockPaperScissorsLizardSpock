@@ -99,7 +99,7 @@ function displayComputerChoice(playerChoice) {
 // Update Score
 function updateScore(playerChoice) {
 	if(playerChoice === computerChoice) {
-		resultText.textContent = "It's a tie.";
+		resultText.textContent = "It's a tie. 💁‍♂️";
 	} else {
 		const choice = choices[playerChoice];
 		if(choice.defeats.indexOf(computerChoice) > -1) {
